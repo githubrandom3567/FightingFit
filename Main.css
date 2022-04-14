@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cormorant+Unicase:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+h1 {
+   color: royalblue;
+   font-size: 60px; 
+   text-align: center;
+   font-family:'Bungee Outline', cursive;
+}
+h2 {
+    text-align: center;
+    color: aliceblue;}
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.button1 {
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;}
+.button2 {
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button3 {
+    background-color:mediumpurple ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body{background-image: url(imagesforwebsite/pexels-photo-4162449.webp) ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.column{
+    display: flex;
+    float: left;
+    max-width: 50.50%;
+    padding: 5px;
+}
+
+.row::after{
+    content: none;
+    float: right;
+}
